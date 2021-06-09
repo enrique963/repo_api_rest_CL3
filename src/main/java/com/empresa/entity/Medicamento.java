@@ -18,9 +18,9 @@ public class Medicamento {
 	
 	private String nombre;
 	
-	private int precio;
+	private double precio;
 	
-	private double stock;
+	private int stock;
 	
 	private String laboratorio;
 
@@ -40,19 +40,19 @@ public class Medicamento {
 		this.nombre = nombre;
 	}
 
-	public int getPrecio() {
+	public double getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(int precio) {
+	public void setPrecio(double precio) {
 		this.precio = precio;
 	}
 
-	public double getStock() {
+	public int getStock() {
 		return stock;
 	}
 
-	public void setStock(double stock) {
+	public void setStock(int stock) {
 		this.stock = stock;
 	}
 
@@ -63,6 +63,8 @@ public class Medicamento {
 	public void setLaboratorio(String laboratorio) {
 		this.laboratorio = laboratorio;
 	}
+
+	
 	
 	
 	
